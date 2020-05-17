@@ -1,3 +1,5 @@
 .idea
 aux
 dist
+.firebaserc
+firebase.json
