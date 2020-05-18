@@ -3,3 +3,4 @@ aux
 dist
 .firebaserc
 firebase.json
+.firebase
