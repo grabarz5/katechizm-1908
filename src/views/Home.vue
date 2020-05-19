@@ -1,17 +1,34 @@
 <template>
-  <div class="home">
-    <HelloWorld />
+  <div class="page-container">
+    <Toolbar />
+    <md-list class="md-double-line">
+      
+      <md-list-item v-for="{name, description, id} in toc" :key="name" @click="goTo(id)">
+        <div class="md-list-item-text">
+          <span>{{name}}</span>
+          <span>{{description}}</span>
+        </div>
+      </md-list-item>
+    
+    </md-list>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Toolbar from '@/components/Toolbar'
+import toc from '@/content/toc'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  components: { Toolbar },
+  data: () => ({
+    menuVisible: false,
+    toc: toc
+  }),
+  methods: {
+    goTo(id){
+      this.$router.push({path: `/chapter/${id}`})
+    }
   }
 }
 </script>
