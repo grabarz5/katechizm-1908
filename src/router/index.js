@@ -14,7 +14,8 @@ Vue.use(VueRouter)
   {
     path: '/chapter/:id',
     name: 'Chapter',
-    component: Chapter
+    component: Chapter,
+    props: true
   }
 ]
 
