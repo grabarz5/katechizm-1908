@@ -40,7 +40,7 @@ const db = {
 			{
 				"id": 8,
 				"q": "Które są główne tajemnice wiary chrześcijańskiej?",
-				"a": "Główne tajemnice wiary chrześcijańskiej są następujące:\r\n1. tajemnica jednego Boga w trzech rzeczowo różnych Osobach: w Ojcu, Synu i Duchu Świętym\r\n2. tajemnica Odkupienia ludzkiego przez wcielenie, mękę i śmierć Jezusa Chrystusa, Syna Bożego."
+				"a": "Główne tajemnice wiary chrześcijańskiej są następujące:\n1. tajemnica jednego Boga w trzech rzeczowo różnych Osobach: w Ojcu, Synu i Duchu Świętym\n2. tajemnica Odkupienia ludzkiego przez wcielenie, mękę i śmierć Jezusa Chrystusa, Syna Bożego."
 			},
 			{
 				"id": 9,
