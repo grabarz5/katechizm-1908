@@ -29,8 +29,10 @@ export default router
 =======
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Chapter from "../views/Chapter";
-import Home from '../views/Home.vue'
+import Chapter from '@/views/Chapter'
+import Home from '@/views/Home'
+import Converter from '@/views/Converter'
+
 
 Vue.use(VueRouter)
 
@@ -45,6 +47,11 @@ Vue.use(VueRouter)
     name: 'Chapter',
     component: Chapter,
     props: true
+  },
+  {
+    path: '/converter',
+    name: 'Converter',
+    component: Converter
   }
 ]
 
