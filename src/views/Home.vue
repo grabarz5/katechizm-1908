@@ -9,7 +9,6 @@
 					<span>{{description}}</span>
 				</div>
 			</md-list-item>
-		
 		</md-list>
 	</div>
 </template>
