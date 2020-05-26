@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+<template>
+	<md-content>Background</md-content>
+</template>
+
+<script>
+	// import db from '@/content/db'
+
+	export default {
+		name: "Chapter",
+		data: () =>{
+			// db: db
+		}
+	}
+</script>
+=======
 <template>
 	<div class="chapter">
 		<Toolbar/>
@@ -5,7 +21,7 @@
 			<md-app-content>
 				<div :key="id" v-for="{id, q, a} in getChapter(id)">
 					<h3 :id="id">{{id}}. {{q}}</h3>
-					<p>{{a}}</p>
+					<p v-html="a"></p>
 				</div>
 			</md-app-content>
 		</md-app>
@@ -36,4 +52,8 @@
 	.chapter {
 		height: 100vh;
 	}
+	p{
+		white-space: pre-wrap;
+	}
 </style>
+>>>>>>> master
