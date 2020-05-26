@@ -152,7 +152,81 @@ const db = {
 				"a": "Prawdy, które Bóg objawił, a Kościół nam do wierzenia podaje, znajdują się w głównie w Składzie Apostolskim."
 			}
 		]
-	}]
+	},
+		{
+			"id": 3,
+			"content": [{
+				"id": 30,
+				"q": "Dlaczego to zestawienie prawd wiary nazywa się Składem Apostolskim?",
+				"a": "To zestawienie prawd wiary nazywa się Składem Apostolskim, ponieważ zawiera streszczenie głównych prawd, przekazanych przez apostołów, i od najdawniejszych czasów było w użyciu jako hasło chrześcijan."
+			}, {
+				"id": 31,
+				"q": "Co jest zawarte w dwunastu artykułach Składu Apostolskiego?",
+				"a": "W dwunastu artykułach Składu Apostolskiego zawarta jest tajemnica jednego Boga w trzech Osobach, różniących się między sobą rzeczowo, czyli w Ojcu, Synu i Duchu Świętym, razem z czynnościami, które z pewnego osobliwego powodu przypisuje się poszczególnym osobom."
+			}, {
+				"id": 32,
+				"q": "Jak nauka tej tajemnicy jest w Składzie Apostolskim rozłożona?",
+				"a": "W Składzie Apostolskim nauka tej tajemnicy jest rozłożona na trzy główne części w ten sposób, że w pierwszej zachodzi mowa o Pierwszej Osobie natury Boskiej i o dziele stworzenia; w drugiej – o Drugiej Osobie i o dziele ludzkiego Odkupienia; w trzeciej – o Trzeciej Osobie i o dziele naszego uświęcenia, które się teraz rozpoczęło przez łaskę, a w przyszłości ma się dokonać przez chwałę."
+			}, {
+				"subchapter": true,
+				"title": "Część I\nO pierwszym artykule Składu Apostolskiego, w którym podana jest nauka o Pierwszej Osobie Trójcy Przenajświętszej i o dziele stworzenia",
+				"content": [
+					{
+						"subheader": "Art. 1 - O Bogu Jedynym i Troistym"
+					},
+					{
+						"id": 33,
+						"q": "Co oznacza słowo Wierzę?",
+						"a": "Słowo Wierzę oznacza to samo, co: dla powagi Boga objawiającego mocno przystaję na prawdy zawarte w Składzie Apostolskim."
+					}, {
+						"id": 34,
+						"q": "Co oznaczają słowa: Wierzę w Boga?",
+						"a": "Słowa Wierzę w Boga oznaczają to samo, co: mocno wierzę, że Bóg jest, i do Niego dążę jako do najwyższego i najdoskonalszego dobra i celu ostatecznego."
+					}, {
+						"id": 35,
+						"q": "Co rozumiesz przez słowo Bóg?",
+						"a": "Przez słowo Bóg rozumiem ducha najczystszego (czyli byt duchowy zupełnie prosty i niezmienny), co do rozumu i woli oraz wszelkiej doskonałości nieskończonego, w sobie ze siebie najszczęśliwszego."
+					}, {
+						"id": 36,
+						"q": "Jakie są główne doskonałości czyli przymioty Boskie?",
+						"a": "Główne doskonałości czyli przymioty Boskie są następujące:\nBóg jest:\na) wieczny, bo nie ma, ani mieć nie może, początku, ni końca, ni następstwa;\nb) wszystkowiedzący, bo wszystko dobrze zna, także to, co będzie w przyszłości mocą wolnych czynów ludzkich, nawet uczucia serca i ukryte myśli;\nc) niezmierzony, bo jest w niebie, na ziemi i na wszystkich miejscach, które są i być mogą;\nd) sprawiedliwy, bo oddaje każdemu według jego zasług w tym, lub z pewnością w przyszłym życiu;\ne) dobry, bo nieskończoną dobrocią, mocą i mądrością wszystko stworzył, utrzymuje i rządzi wszystkim; dobra, których używamy, pochodzą od Niego; wysłuchuje łaskawie prośby błagających;\nf) miłosierny, bo chcąc, żeby się wszyscy ludzie zbawili, odkupił ich z niewoli szatana, każdemu daje środki potrzebne do zbawienia i „nie chce śmierci grzesznika, lecz aby się nawrócił i żył”."
+					}, {
+						"id": 37,
+						"q": "Czy Bóg jest różny od świata?",
+						"a": "Bóg jest rzeczywiście i istotnie różny od świata i niewymownie wyższy nad wszystko, co jest poza Nim i co może być pomyślane."
+					}, {
+						"id": 38,
+						"q": "Czy Bóg jest jeden?",
+						"a": "Bóg jest jeden jednością natury, ale w trzech rzeczowo różnych Osobach: Ojcu, Synu i Duchu Świętym, które stanowią Trójcę Przenajświętszą."
+					}, {
+						"id": 39,
+						"q": "Jak się różnią między sobą Ojciec, Syn i Duch Święty?",
+						"a": "Ojciec, Syn i Duch Święty różnią się między sobą przez przeciwstawne stosunki Osób: Ojciec rodzi Syna, a od obu pochodzi Duch Święty."
+					}, {
+						"id": 40,
+						"q": "Czy wśród trzech Osób Boskich jedna co do czasu jest przed drugą?",
+						"a": "Spośród trzech Osób Boskich żadna nie jest co do czasu przed drugą, lecz wszystkie są równie wieczne, bo ani nie mają, ani mieć nie mogą początku ni końca."
+					}, {
+						"id": 41,
+						"q": "Dlaczego trzy Osoby Boskie są jednym Bogiem?",
+						"a": "Trzy Osoby Boskie są jednym Bogiem, ponieważ są współistotne, to jest mają jedną i tę samą naturę, a przez to te same doskonałości czyli przymioty i działanie na zewnątrz."
+					}, {
+						"id": 42,
+						"q": "Czy Pismo św. nie przypisuje zazwyczaj Ojcu wszechmocy, Synowi mądrości, a Duchowi Świętemu dobroci?",
+						"a": "Mimo, iż wszystkie przymioty Bóstwa są wspólne każdej Osobie Boskiej z osobna, jednak Pismo św. zazwyczaj przypisuje wszechmoc Ojcu, ponieważ On jest źródłem wszystkiego, co powstało i powstaje; mądrość Synowi, ponieważ jest Słowem Ojca; dobroć i świętość Duchowi Świętemu, ponieważ jest miłością obu."
+					}, {
+						"id": 43,
+						"q": "Jakie to uwielbienie Trójcy Przenajświętszej wierni zwykli odmawiać, zwłaszcza na zakończenie modlitw?",
+						"a": "Uwielbieniem Trójcy Przenajświętszej, które wierni zwykli odmawiać, zwłaszcza na zakończenie modlitw, są słowa: Chwała Ojcu i Synowi i Duchowi Świętemu, jak była na początku i teraz i zawsze i na wieki wieków. Amen."
+					}, {
+						"id": 44,
+						"q": "Co oznacza słowo wszechmogącego?",
+						"a": "Słowo wszechmogącego oznacza, że Bóg prostym aktem woli może uczynić wszystko, co chce."
+					}
+				]
+			}]
+		}
+	]
 }
 
 export default db
