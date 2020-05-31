@@ -1,22 +1,5 @@
-<<<<<<< HEAD
-<template>
-	<md-content>Background</md-content>
-</template>
-
-<script>
-	// import db from '@/content/db'
-
-	export default {
-		name: "Chapter",
-		data: () =>{
-			// db: db
-		}
-	}
-</script>
-=======
 <template>
 	<div class="chapter">
-		<Toolbar/>
 		<md-app>
 			<md-app-content>
 				<div :key="id" v-for="{id, q, a} in getChapter(id)">
@@ -30,14 +13,12 @@
 
 <script>
 	import db from '@/content/db'
-	import Toolbar from "../components/Toolbar";
 
 	export default {
 		name: "Chapter",
 		data: () => ({
 			db: db
 		}),
-		components: { Toolbar },
 		props: ['id'],
 		methods: {
 			getChapter(id){
@@ -56,4 +37,3 @@
 		white-space: pre-wrap;
 	}
 </style>
->>>>>>> master

@@ -1,6 +1,5 @@
 <template>
   <div class="page-container">
-    <Toolbar />
     <md-list class="md-double-line">
       
       <md-list-item v-for="{name, description, id} in toc" :key="name" @click="goTo(id)">
@@ -15,12 +14,10 @@
 </template>
 
 <script>
-import Toolbar from '@/components/Toolbar'
 import toc from '@/content/toc'
 
 export default {
   name: 'Home',
-  components: { Toolbar },
   data: () => ({
     menuVisible: false,
     toc: toc
