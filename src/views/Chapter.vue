@@ -2,9 +2,16 @@
 	<div class="chapter">
 		<md-app>
 			<md-app-content>
-				<div :key="id" v-for="{id, q, a} in getChapter(id)">
-					<h3 :id="id">{{id}}. {{q}}</h3>
-					<p v-html="a"></p>
+				<div :key="id" v-for="{id, q, a, subchapter, title, content} in getChapter(id)">
+					<h2 v-if="subchapter">{{ title }}</h2>
+					<h3 v-if="!subchapter" :id="id">{{id}}. {{q}}</h3>
+					<div v-if="subchapter">
+						<div :key="id" v-for="{id, q, a } in content">
+							<h3 v-if="id" :id="id">{{ id }}. {{ q }}</h3>
+							<p v-html="a"></p>
+						</div>
+					</div>
+					<p v-if="!subchapter" v-html="a"></p>
 				</div>
 			</md-app-content>
 		</md-app>
@@ -32,6 +39,9 @@
 <style scoped>
 	.chapter {
 		height: 100vh;
+	}
+	h2{
+		white-space: break-spaces;
 	}
 	p{
 		white-space: pre-wrap;
