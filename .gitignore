@@ -21,6 +21,6 @@ yarn-error.log*
 *.sw?
 
 # Firebase
-.firebase
+.firebase/
 firebase.json
 .firebaserc
