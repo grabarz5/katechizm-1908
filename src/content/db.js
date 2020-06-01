@@ -219,7 +219,83 @@ const db = {
 				"id": 44,
 				"q": "Co oznacza słowo wszechmogącego?",
 				"a": "Słowo wszechmogącego oznacza, że Bóg prostym aktem woli może uczynić wszystko, co chce."
-			}]
+			},
+				{
+					"subheader": "Art. 2 - O stworzeniu świata i Opatrzności Boskiej"
+				},
+				{
+					"id": 45,
+					"q": "Co znaczą słowa: Stworzyciela nieba i ziemi?",
+					"a": "Słowa: Stworzyciela nieba i ziemi znaczą, że Bóg zupełnie dobrowolnie na początku czasu z niczego utworzył jeden i drugi świat, duchowy i cielesny, czyli świat niebiański i doczesny, a potem człowieka, jako składającego się z ducha i z ciała."
+				},
+				{
+					"id": 46,
+					"q": "Dlaczego Bóg raczył to wszystko stworzyć?",
+					"a": "Bóg dobrocią swoją i wszechmocną siłą raczył to wszystko stworzyć nie dla pomnożenia ani zdobycia swego szczęścia, lecz dla objawienia swej doskonałości przez dobra, których użycza stworzeniom."
+				},
+				{
+					"id": 47,
+					"q": "Czy Bóg dba o wszystkie rzeczy, które stworzył?",
+					"a": "Bóg dba o wszystkie rzeczy, które stworzył, gdyż je wprost utrzymuje, strzeże ich – w przeciwnym razie wróciłyby natychmiast w nicość – i kieruje nimi tak, iż nie ma ani być nie może niczego, co by się działo bez woli Bożej lub dopustu Bożego."
+				},
+				{
+					"id": 48,
+					"q": "Jak się nazywa staranie, które Bóg ma o rzeczy stworzone?",
+					"a": "Staranie, które Bóg ma o to, co stworzył, nazywa się Opatrznością Bożą."
+				},
+				{
+					"id": 49,
+					"q": "Dlaczego tedy Bóg nie przeszkadza grzechowi?",
+					"a": "Bóg nie przeszkadza grzechowi, ponieważ dał człowiekowi wolność wraz z pomocą łaski, aby człowiek sam był sprawcą albo swego szczęścia, albo swej zguby, zależnie od tego, czy współdziała z łaską lub się jej sprzeciwia; ale Bóg nawet z nadużycia wolności cudownie wyprowadza dobro, aby zawsze i wszędzie jaśniała Jego sprawiedliwość i miłosierdzie."
+				},
+				{
+					"id": 50,
+					"q": "A dlaczego Bóg chce albo dopuszcza wszelkiego rodzaju zło fizyczne, które nas trapi w tym śmiertelnym życiu?",
+					"a": "Wszelkiego rodzaju zło fizyczne, które nas trapi w tym życiu śmiertelnym, Bóg chce albo dopuszcza dlatego, by ukarać grzech, albo by nawrócić grzeszników do Siebie, albo żeby sprawiedliwych doświadczać i uczynić ich godnymi nagrody wiekuistej, albo też przez wzgląd na jakieś wyższe dobro."
+				},
+				{
+					"id": 51,
+					"q": "Które stworzenia przewyższają inne?",
+					"a": "Aniołowie i ludzie przewyższają wszystkie inne stworzenia."
+				}, {
+					"subheader": "Art.3 - O stworzeniu Aniołów"
+				},
+				{
+					"id": 52,
+					"q": "Co to są Aniołowie?",
+					"a": "Aniołowie są to czyste duchy, obdarzone rozumem i wolą, które były stworzone w stanie sprawiedliwości i świętości, aby odpowiadając łasce Bożej, zasłużyły sobie na chwałę w niebie."
+				},
+				{
+					"id": 53,
+					"q": "Czy wszyscy Aniołowie odpowiedzieli łasce Bożej?",
+					"a": "Nie wszyscy Aniołowie odpowiedzieli łasce Bożej; ci którzy jej odpowiedzieli, zażywają w niebie szczęścia oglądania Boga twarzą w twarz i nazywają się właśnie Aniołami, a są podzieleni na dziewięć hufców; ci zaś, którzy nie odpowiedzieli łasce Bożej, strąceni zostali do piekła za grzechy pychy i nazywają się złymi duchami, których głową jest Lucyfer, czyli szatan."
+				},
+				{
+					"id": 54,
+					"q": "Czy Bóg korzysta z posług Aniołów?",
+					"a": "Bóg rozmaicie korzysta z posług Aniołów, zwłaszcza w opiece nad ludźmi, i każdemu człowiekowi od urodzenia przydał Anioła za stróża."
+				},
+				{
+					"id": 55,
+					"q": "Co nam wyświadcza Anioł Stróż?",
+					"a": "Anioł Stróż opiekuje się nami szczególnie w pokusach, daje nam dobre myśli, przedstawia nasze prośby Bogu i modli się zza nami."
+				},
+				{
+					"id": 56,
+					"q": "Czy jest pożyteczne dla naszego życia duchownego, byśmy do swego Anioła Stróża mieli osobliwe nabożeństwo?",
+					"a": "Dla naszego życia duchownego jest rzeczą nader pożyteczną, byśmy mieli osobliwe nabożeństwo do swego Anioła Stróża, czcząc go i wzywając zwłaszcza przeciwko pokusom, idąc za jego natchnieniem, czyniąc mu godne dzięki i nigdy nie obrażając grzechem jego obecności."
+				},
+				{
+					"id": 57,
+					"q": "Jaka jest najczęściej odmawiana modlitwa do Anioła Stróża?",
+					"a": "Najczęściej przez wiernych odmawiana modlitwa do Anioła Stróża brzmi: Aniele Boży, Stróżu mój, mnie, Tobie z dobroci Bożej zleconego, oświecaj, strzeż, prowadź i rządź mną. Amen."
+				},
+				{
+					"id": 58,
+					"q": "Jaką władzę mają złe duchy nad ludźmi?",
+					"a": "Złe duchy za dopuszczeniem Bożym mogą ludziom wyrządzać krzywdę na rzeczach zewnętrznych i na ich własnych osobach, biorąc także ich ciała w posiadanie; mogą również ludzi nakłaniać do grzechów przez pokusy; nie mogą jednak szkodzić ich zbawieniu wiecznemu bez ich dobrowolnej zgody."
+				}
+			]
 		}]
 	}]
 }
