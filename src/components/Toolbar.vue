@@ -4,7 +4,7 @@
 			<h3 class="md-title">Katechizm Gasparriego</h3>
 		</div>
 		<div class="md-toolbar-section-end">
-			<md-button class="md-icon-button">
+			<md-button class="md-icon-button" :to="'/Search'">
 				<md-icon>search</md-icon>
 			</md-button>
 		</div>
