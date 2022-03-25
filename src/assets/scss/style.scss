@@ -1,7 +1,0 @@
-@import "~vue-material/dist/theme/engine";
-
-@include md-register-theme("default", (primary: #800020, accent: #008060))
-
-@import "~vue-material/dist/components/MdButton/theme";
-@import "~vue-material/dist/components/MdContent/theme";
-@import "~vue-material/dist/components/MdToolbar/theme";
