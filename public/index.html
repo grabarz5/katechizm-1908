@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-   <link rel="manifest" href="./manifest.json">
-   <script>
-      if('serviceWorker' in navigator) {
-         navigator.serviceWorker.register('/sw.js', { scope: './'})
-         .then( registration => {
-            registration.update()
-         })
-      }
-   </script>
-   <link rel="apple-touch-icon" href="/images/icon/icon-192x192.png">
-   
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="red">
 
-   <meta name="description" content="Katechizm Gasparriego">
-   <title>Katechizm Gasparriego</title>
+<head>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="/images/icon/icon-192x192.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="red">
+    <link rel="stylesheet" href="./css/app.css">
+
+    <meta name="description" content="Katechizm Gasparriego">
+    <title>Katechizm Gasparriego</title>
+    <script src="./js/app.js" type="module" defer></script>
 </head>
+
 <body>
-   <h1>Hello world!</h1>
+    <header>
+        <h1>Katechizm Gasparriego</h1>
+    </header>
+    <main>
+        <input type="text" id="search" placeholder="Wyszukaj..." data-search></div>
+        <section id="cards" data-question-cards-container>
+            <template data-question-template>
+                <div class="card">
+                    <div class="card__title">
+                        <div class="card__title__num" data-num></div>
+                        <div class="card__title__text" data-title></div>
+                    </div>
+                    <div class="card__content" data-content></div>
+                </div>
+            </template>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 Stowarzyszenie Opcja Benedykta</p>
+    </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register("sw.js")
+            })
+        }
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,113 @@
+$primary: #CACFD6;
+$secondary: #D6E5E3;
+$accent: #9FD8CB;
+$light: #517664;
+$dark: #2D3319;
+$spacer: 8px;
+$header-height: 56px;
+$footer-height: 24px;
+$main-height: calc(100vh - #{$header-height} - #{$footer-height} - (#{$spacer} * 2));
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: $secondary;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+
+header {
+    background-color: $dark;
+    box-shadow: 1px 1px 8px #aaa;
+    color: $primary;
+    display: flex;
+    height: $header-height;
+    justify-content: space-between;
+    margin-bottom: $spacer;
+    max-height: 56px;
+    padding: 0 calc(#{$spacer} * 2);
+    position: sticky;
+    top: 0;
+    h1 {
+        align-items: center;
+        display: flex;
+        font-size: 1.25rem;
+        font-weight: normal;
+        font-variant-caps: small-caps;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+main {
+    height: $main-height;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+footer {
+    align-items: center;
+    background-color: $light;
+    color: $primary;
+    display: flex;
+    font-size: .75rem;
+    height: $footer-height;
+    justify-content: center;
+    margin-top: $spacer;
+    padding: 0 calc(#{$spacer} * 2);
+    position: sticky;
+    bottom: -$spacer;
+}
+
+.card {
+    background-color: $light;
+    color: $primary;
+    margin: $spacer;
+    padding: 0 $spacer $spacer;
+    .card__title {
+        align-items: center;
+        border-bottom: 1px solid $primary;
+        display: flex;
+        font-weight: bold;
+        min-height: 32px;
+        .card__title__num {
+            font-size: 1.5rem;
+            font-variant: lining-nums;
+            line-height: 2rem;
+        }
+        .card__title__num,
+        .card__title__text {
+            margin: $spacer;
+        }
+    }
+    .card__content {
+        line-height: 1.25rem;
+        padding-top: $spacer;
+    }
+}
+
+.hide{
+    display: none;
+}
+
+#search {
+    align-items: center;
+    background-color: $primary;
+    border: none;
+    color: $dark;
+    display: flex;
+    font-size: 1.15rem;
+    height: 32px;
+    margin: $spacer;
+    outline: none;
+    padding: $spacer;
+    width: calc(100% - #{$spacer} * 2);
+}

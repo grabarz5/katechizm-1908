@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #D6E5E3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0;
+}
+
+header {
+  background-color: #2D3319;
+  -webkit-box-shadow: 1px 1px 8px #aaa;
+          box-shadow: 1px 1px 8px #aaa;
+  color: #CACFD6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+  max-height: 56px;
+  padding: 0 calc(8px * 2);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-variant-caps: small-caps;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: calc(100vh - 56px - 24px - (8px * 2));
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #517664;
+  color: #CACFD6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .75rem;
+  height: 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8px;
+  padding: 0 calc(8px * 2);
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: -8px;
+}
+
+.card {
+  background-color: #517664;
+  color: #CACFD6;
+  margin: 8px;
+  padding: 0 8px 8px;
+}
+
+.card .card__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #CACFD6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  min-height: 32px;
+}
+
+.card .card__title .card__title__num {
+  font-size: 1.5rem;
+  font-variant: lining-nums;
+  line-height: 2rem;
+}
+
+.card .card__title .card__title__num,
+.card .card__title .card__title__text {
+  margin: 8px;
+}
+
+.card .card__content {
+  line-height: 1.25rem;
+  padding-top: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+#search {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #CACFD6;
+  border: none;
+  color: #2D3319;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.15rem;
+  height: 32px;
+  margin: 8px;
+  outline: none;
+  padding: 8px;
+  width: calc(100% - 8px * 2);
+}
+/*# sourceMappingURL=app.css.map */
