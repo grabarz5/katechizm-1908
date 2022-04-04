@@ -2,10 +2,10 @@
 <html lang="pl">
 
 <head>
+    <meta charset="UTF-8">
     <link rel="manifest" href="./manifest.json">
     <link rel="apple-touch-icon" href="/images/icon/icon-192x192.png">
 
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="red">
@@ -18,10 +18,20 @@
 
 <body>
     <header>
+        <div id="burger" class="menu-toggler">III</div>
         <h1>Katechizm Gasparriego</h1>
     </header>
+    <div class="menu-wrapper hide">
+        <div class="menu" data-chapters-container>
+            <template data-chapter-template>
+                <ul class="menu__section" data-type>
+                    <li class="menu__element" data-element></li>
+                </ul>
+            </template>
+        </div>
+    </div>
     <main>
-        <input type="text" id="search" placeholder="Wyszukaj..." data-search></div>
+        <input type="text" id="search" placeholder="Wyszukaj..." data-search>
         <section id="cards" data-question-cards-container>
             <template data-question-template>
                 <div class="card">

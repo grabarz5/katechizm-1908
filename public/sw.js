@@ -3,7 +3,7 @@ importScripts(
 );
 
 workbox.setConfig({
-    debug: true
+    debug: false
 });
 
 workbox.loadModule('workbox-strategies');
