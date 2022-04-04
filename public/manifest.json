@@ -1,8 +1,8 @@
 {
   "name": "Katechizm kard. Gasparriego",
   "short_name": "Katechizm Gasparriego",
-  "theme_color": "red",
-  "background_color": "blue",
+  "theme_color": "#517664",
+  "background_color": "#D6E5E3",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
