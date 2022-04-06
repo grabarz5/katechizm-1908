@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" href="/images/icon/icon-192x192.png">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="red">
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="/css/app.css">
 
     <meta name="description" content="Katechizm Gasparriego">
     <title>Katechizm Gasparriego</title>
-    <script src="./js/app.js" type="module" defer></script>
+    <script src="/js/app.js" type="module" defer></script>
 </head>
 
 <body>
@@ -25,7 +25,9 @@
         <div class="menu" data-chapters-container>
             <template data-chapter-template>
                 <ul class="menu__section" data-type>
-                    <li class="menu__element" data-element></li>
+                    <li class="menu__element" data-element>
+                        <a href="#" data-element-link></a>
+                    </li>
                 </ul>
             </template>
         </div>
@@ -50,7 +52,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register("sw.js")
+                navigator.serviceWorker.register("/sw.js")
             })
         }
     </script>

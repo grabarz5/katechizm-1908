@@ -34,7 +34,6 @@ header {
     justify-content: left;
     margin-bottom: $spacer;
     max-height: 56px;
-    // padding: 0 calc(#{$spacer} * 2);
     position: sticky;
     top: 0;
 
@@ -48,8 +47,6 @@ header {
     }
 
     h1 {
-        // align-items: center;
-        // display: flex;
         font-size: 1.25rem;
         font-weight: normal;
         font-variant-caps: small-caps;
@@ -85,11 +82,13 @@ footer {
     top: 0;
     opacity: 1;
     width: 100%;
-    transition: opacity .5s cubic-bezier(0.77,0.2,0.05,1.0);
+    transition: all .5s cubic-bezier(0.77,0.2,0.05,1.0);
+    visibility: visible;
     z-index: 99999;
 
     &.hide{
         opacity: 0; 
+        visibility: hidden;
         .menu{
             transform: translate(-100%, 0);
         }
@@ -104,16 +103,21 @@ footer {
         width: 80%;
 
         .menu__section{
+            list-style: none;
             padding: 0;
 
             .menu__element{
-                align-items: center;
-                border-bottom: 1px solid $dark;
-                color: $primary;
-                display: flex;
-                height: 47px;
-                line-height: 1rem;
-                padding: calc((48px - 1rem) / 2);
+
+                a {
+                    align-items: center;
+                    border-bottom: 1px solid $dark;
+                    color: $primary;
+                    display: flex;
+                    height: 47px;
+                    line-height: 1rem;
+                    padding: calc((48px - 1rem) / 2);
+                    text-decoration: none;
+                }
             }
         }
 
@@ -148,6 +152,10 @@ footer {
     .card__content {
         line-height: 1.25rem;
         padding-top: $spacer;
+    }
+
+    &.hide {
+        display: none;
     }
 }
 
